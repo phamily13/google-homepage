@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    height: 100%;
+    min-height: 100%;
+    font-family: arial, sans-serif;
+    color: #757575;
+}
+
+.icon-img{
+    height: 25px;
+    width: 25px;
+}
+
+.header-container li{
+    list-style: none;
+    
+}
+
+.header-container{
+    font-size: 13px;
+}
+
+.foot-notes a{
+    color: #757575;
+}
+
+
+a{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.nav-container{
+    display: grid; 
+    grid-template-columns: 50px 1fr 50px 50px 50px 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 24px;
+    
+}
+
+.nav-container a{
+    color:black;
+}
+.logo{
+    margin-left: 10px;
+}
+
+
+.brand-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.brand-logo{
+    height: 90x;
+    width: 290px;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+.search-bar   {
+    border:1px solid #dfe1e5;
+    background: #fff;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3px;
+    height: 44px;
+    margin:0 auto;
+    width: 582px;
+    outline: none;
+}
+
+.search-bar:hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;   
+}
+
+button{
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+   
+}
+
+button:hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+
+.lang{
+    text-align: center;
+    margin-top: 15px;
+    color:black;
+    font-size: 14px;
+}
+
+.franc{
+    color: blue;
+}
+
+.footer-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;    
+    display: grid;
+    grid-template-columns: 80px 80px 150px 1fr 70px 70px 70px;
+    grid-template-rows: 50px 50px;
+    grid-template-areas:
+    "canada . . . . . ."
+    "advertising business hsw . privacy terms settings ";
+    border-top: 1px solid #e4e4e4;
+    
+    line-height: 40px;
+    background: #f2f2f2;
+    font-size: 14px;
+}
+
+
+#canada{
+    grid-area: canada;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+#advertising{
+    grid-area: advertising;
+    justify-self: center;
+    align-self: center;
+    
+}
+#business{
+    grid-area: business;
+    justify-self: center;
+    align-self: center
+}
+ 
+#hsw{
+    grid-area: hsw;
+    justify-self: center;
+    align-self: center
+}
+ 
+#privacy{
+    grid-area: privacy;
+    justify-self: center;
+    align-self: center
+}
+ 
+#terms{
+    grid-area: terms;
+    justify-self: center;
+    align-self: center
+}
+ 
+#settings{
+    grid-area: settings;
+    justify-self: center;
+    align-self: center
+}
+ 
+ 
+
